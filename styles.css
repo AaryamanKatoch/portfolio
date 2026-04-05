@@ -421,6 +421,7 @@ img { max-width: 100%; display: block; }
     display: flex;
     justify-content: center;
     gap: 56px;
+    margin-bottom: 60px;
 }
 
 .metric {
