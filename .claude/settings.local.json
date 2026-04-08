@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --disable-gpu --print-to-pdf=\"/Users/aaryamantpkatoch/Desktop/Portfolio/Resume_AaryamanKatoch_SRE.pdf\" --no-margins \"/Users/aaryamantpkatoch/Desktop/Portfolio/Resume_AaryamanKatoch_SRE.html\")",
+      "Bash(open:*)"
+    ]
+  }
+}
