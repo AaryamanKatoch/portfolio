@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aaryaman Katoch — Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @page { size: letter; margin: 0.18in 0.32in; }
+        body {
+            font-family: 'Calibri', 'Carlito', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 7.6pt;
+            line-height: 1.14;
+            color: #1a1a1a;
+            padding: 0.18in 0.32in;
+        }
+        @media print { body { padding: 0; } }
+        .header { text-align: center; margin-bottom: 3pt; }
+        .header h1 { font-size: 16pt; font-weight: 700; color: #111; margin-bottom: 1pt; }
+        .header .contact { font-size: 8pt; color: #333; }
+        .header .contact a { color: #333; text-decoration: none; }
+        .header .contact .sep { margin: 0 3pt; color: #999; }
+        .section { margin-bottom: 3pt; }
+        .section-title { font-size: 8.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8pt; color: #111; border-bottom: 1.2pt solid #111; padding-bottom: 0.5pt; margin-bottom: 2pt; }
+        .summary p { font-size: 8pt; }
+        .skills-list { list-style: none; }
+        .skills-list li { margin-bottom: 0; font-size: 8pt; }
+        .job { margin-bottom: 3pt; }
+        .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .job-company { font-size: 8.5pt; font-weight: 700; }
+        .job-location { font-size: 8pt; font-style: italic; color: #444; }
+        .job-role-row { display: flex; justify-content: space-between; align-items: baseline; }
+        .job-role { font-size: 8pt; font-weight: 600; font-style: italic; }
+        .job-date { font-size: 8pt; color: #444; }
+        .job ul { margin-top: 0.5pt; margin-left: 11pt; }
+        .job li { margin-bottom: 0.3pt; font-size: 8pt; }
+        .project { margin-bottom: 2pt; }
+        .project-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .project-name { font-size: 8pt; font-weight: 700; }
+        .project-date { font-size: 8pt; color: #444; }
+        .project ul { margin-top: 0.5pt; margin-left: 11pt; }
+        .project li { margin-bottom: 0.3pt; font-size: 8pt; }
+        .certs-list { list-style: none; }
+        .certs-list li { margin-bottom: 0; font-size: 8pt; }
+        .cert-desc { font-style: italic; color: #444; }
+        .edu { margin-bottom: 1pt; }
+        .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .edu-degree { font-size: 8pt; font-weight: 700; }
+        .edu-loc { font-size: 8pt; font-style: italic; color: #444; }
+        .edu-courses { font-size: 8pt; font-style: italic; color: #444; }
+        b, strong { font-weight: 700; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Aaryaman Katoch</h1>
+        <div class="contact">
+            <span>551-254-8477</span><span class="sep">|</span>
+            <a href="mailto:aaryamantpkatoch@gmail.com">aaryamantpkatoch@gmail.com</a><span class="sep">|</span>
+            <a href="https://linkedin.com/in/aaryaman-katoch">linkedin.com/in/aaryaman-katoch</a><span class="sep">|</span>
+            <a href="https://aaryamankatoch.com">aaryamankatoch.com</a>
+        </div>
+    </div>
+    <div class="section summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Senior Cloud Security &amp; Site Reliability Engineer with 5+ years of experience delivering secure, scalable, and cost-optimized infrastructure across GCP, AWS, and Azure. 4x Google Cloud Professional Certified. Drive DevSecOps, SRE, Pre-Sales, and Solutions Engineering initiatives across CI/CD, IaC, FinOps, and compliance in enterprise environments.</p>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Cloud &amp; Infrastructure:</strong> GCP, AWS, Azure, Terraform, Ansible, Docker, Kubernetes, Helm, Istio, VMware, Linux, Vagrant, Packer</li>
+            <li><strong>Security:</strong> SIEM/SOAR, NGFW, IDS/IPS, UEBA, EDR, XDR, WAF, DLP, Nessus, Qualys, Wireshark, Zero Trust, MITRE ATT&amp;CK, OWASP</li>
+            <li><strong>Compliance &amp; Governance:</strong> HIPAA, SOC 2, NIST, PCI-DSS, ISO 27001, GDPR, YARA-L, Policy-as-Code, CIS Benchmarks, IAM</li>
+            <li><strong>CI/CD &amp; Automation:</strong> Jenkins, Argo CD, GitHub Actions, GitLab CI, Bitrise CI, Tekton, SonarQube, Skaffold, JFrog Artifactory</li>
+            <li><strong>Observability &amp; Monitoring:</strong> Prometheus, Grafana, ELK Stack, PagerDuty, Datadog, Splunk, Alertmanager, Looker, OpenTelemetry</li>
+            <li><strong>Databases &amp; Storage:</strong> PostgreSQL, MySQL, MongoDB, Redis, Cassandra, DynamoDB, Neo4j, InfluxDB, Elasticsearch</li>
+            <li><strong>Languages &amp; Scripting:</strong> Python, Go, JavaScript, TypeScript, Bash/Shell, PowerShell, HCL (Terraform), Groovy, YAML, SQL, Java, C</li>
+            <li><strong>Networking:</strong> TCP/IP, UDP, DNS, HTTP/HTTPS, TLS/mTLS, Load Balancing, VPN, CDN, VPC, NAT, Service Mesh, BGP, OSPF, Firewall Rules</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">Searce Inc</span>
+                <span class="job-location">Houston, TX</span>
+            </div>
+            <div class="job-role-row">
+                <span class="job-role">Senior Cloud Security &amp; Reliability Engineer</span>
+                <span class="job-date">July 2025 &ndash; Present</span>
+            </div>
+            <ul>
+                <li>Architected an <strong>Agentic AI-powered cloud migration platform</strong> that autonomously discovers, assesses, and migrates AWS, Azure, and on-prem workloads to Google Cloud, generating production-ready Terraform IaC and reducing multi-million-dollar migration timelines by <strong>50%</strong> while hardening security posture and compliance readiness by <strong>40%</strong>.</li>
+                <li>Spearheaded enterprise-wide <strong>HIPAA and SOC 2 compliance transformation</strong> for healthcare clients, implementing Zero Trust architecture, centralized IAM with least-privilege RBAC, encryption at rest and in transit, and automated audit logging&mdash;achieving <strong>100% audit readiness</strong> with zero critical findings across three consecutive annual assessments.</li>
+                <li>Engineered <strong>fully automated CI/CD pipelines</strong> (Jenkins, Argo CD, SonarQube, JFrog Artifactory) with SAST/DAST security gates, container image signing, and GitOps-driven promotion across dev/staging/prod Kubernetes clusters, cutting release cycles from <strong>2 weeks to 2 days</strong> with zero-downtime deployments.</li>
+                <li>Optimized <strong>$2M+ annual cloud spend</strong> across enterprise accounts through FinOps practices&mdash;rightsizing, committed use discounts, spot/preemptible workloads, idle resource cleanup, and real-time billing alerts&mdash;delivering sustained <strong>30&ndash;40% cost reduction</strong> without SLA degradation.</li>
+                <li>Championed <strong>pre-sales and solution architecture</strong> as the primary technical advisor to C-suite stakeholders, leading discovery workshops, designing reference architectures, and driving <strong>$5M+ in signed engagements</strong> from initial proof-of-concept through production go-live and ongoing optimization.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-role-row">
+                <span class="job-role">Cloud Reliability Engineer</span>
+                <span class="job-date">May 2023 &ndash; June 2025</span>
+            </div>
+            <ul>
+                <li>Deployed a <strong>cloud-native intrusion prevention system (IPS)</strong> using NGFW appliances and Terraform IaC, integrating threat intelligence feeds, auto-remediation workflows, and policy-as-code enforcement to block <strong>99% of malicious traffic</strong> with zero false positives in production.</li>
+                <li>Established a <strong>blameless postmortem culture</strong> and authored incident response runbooks aligned with SRE best practices, reducing MTTR by <strong>35%</strong> and improving system availability to <strong>99.95%</strong> through structured root cause analysis and preventive action tracking.</li>
+                <li>Mentored <strong>six junior engineers</strong> in cloud architecture, security best practices, and Terraform module development through pairing sessions and code reviews, promoting all to L2 within 12 months and improving team delivery velocity by <strong>20%</strong>.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">Searce Cosourcing Services Private Limited</span>
+                <span class="job-location">Pune, India</span>
+            </div>
+            <div class="job-role-row">
+                <span class="job-role">Cloud Engineer</span>
+                <span class="job-date">January 2021 &ndash; July 2022</span>
+            </div>
+            <ul>
+                <li>Designed and delivered <strong>10+ proof-of-concept architectures</strong> on AWS &amp; Azure, presenting technical feasibility and cost analysis to C-suite stakeholders, converting 5 prospects into signed engagements and growing the sales pipeline by <strong>10%</strong>.</li>
+                <li>Conducted <strong>technical discovery sessions</strong> with prospective customers to map existing workloads, identify migration blockers, and scope end-to-end solution architectures, bridging the gap between sales and engineering delivery teams.</li>
+                <li>Configured <strong>continuous integration via GitHub Actions</strong> for tag-based and scheduled deployments with automated testing and artifact publishing, improving deployment efficiency by <strong>70%</strong> and integrating real-time status notifications to Slack.</li>
+                <li>Triaged production incidents through <strong>PagerDuty on-call rotation</strong>, performing real-time diagnostics with log correlation and metric analysis, coordinating cross-team response, and documenting root causes to prevent recurrence.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project">
+            <div class="project-header">
+                <span class="project-name">Security Operations (SecOps) &mdash; SIEM &amp; SOAR Implementation</span>
+                <span class="project-date">2026</span>
+            </div>
+            <ul>
+                <li>Directed end-to-end <strong>Google Security Operations (SIEM &amp; SOAR)</strong> implementation, designing log ingestion architecture, IAM strategy, and threat detection framework to process <strong>50K+ EPS</strong> and <strong>2+ TB/day</strong> of security telemetry for a regulated healthcare enterprise.</li>
+                <li>Integrated <strong>30+ log sources</strong> via BindPlane with UDM normalization; authored <strong>45+ YARA-L detection rules</strong>, 12 automated SOAR playbooks, and 8 SOC dashboards with real-time KPIs, reducing MTTR by <strong>40%</strong> and enabling 24/7 threat visibility.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <span class="project-name">Enterprise Cloud Migration to GCP</span>
+                <span class="project-date">2025</span>
+            </div>
+            <ul>
+                <li>Implemented <strong>blue/green deployment pipelines</strong> using Terraform, Helm, and Istio within a GitLab CI/CD-driven IaC framework, automating multi-region GCP provisioning and reducing deployment time by <strong>60%</strong> with full rollback capability.</li>
+                <li>Refactored monolithic applications into <strong>containerized microservices on GKE</strong>, enabling horizontal pod autoscaling that increased throughput <strong>8&times;</strong> (400 &rarr; 3,200 RPS) while maintaining P95 latency under 100 ms.</li>
+                <li>Built a <strong>unified observability platform</strong> using ELK Stack, Prometheus, and Grafana with custom alerting rules and SLO-based dashboards, reducing mean time to detect (MTTD) by <strong>40%</strong> and accelerating incident response across all environments.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <div class="project-header">
+                <span class="project-name">Disaster Recovery &amp; Business Continuity Platform</span>
+                <span class="project-date">2025</span>
+            </div>
+            <ul>
+                <li>Provisioned <strong>automated backup, cross-region replication, and event-driven failover</strong> pipelines across Cloud SQL, Firestore, Firebase, and GCS, achieving <strong>99.99% availability with zero data loss (RPO 0)</strong> and sub-minute recovery time objectives.</li>
+                <li>Secured compliance posture by integrating <strong>Security Command Center and Cloud Monitoring</strong> for real-time vulnerability alerting, HIPAA/SOC 2 audit tracking, and self-healing auto-remediation workflows.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Certifications</h2>
+        <ul class="certs-list">
+            <li><strong>Professional Cloud Architect &mdash; Google Cloud:</strong> <span class="cert-desc">Architecting scalable, highly available, and secure cloud solutions</span></li>
+            <li><strong>Professional DevOps Engineer &mdash; Google Cloud:</strong> <span class="cert-desc">Implementing CI/CD, automation, and site reliability practices</span></li>
+            <li><strong>Professional Data Engineer &mdash; Google Cloud:</strong> <span class="cert-desc">Designing data processing systems and machine learning pipelines</span></li>
+            <li><strong>Professional Network Engineer &mdash; Google Cloud:</strong> <span class="cert-desc">Designing and managing reliable and secure network architectures</span></li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="edu">
+            <div class="edu-header">
+                <span class="edu-degree">Master of Science in Computer Science, Stevens Institute of Technology</span>
+                <span class="edu-loc">Hoboken, NJ &mdash; May 2024</span>
+            </div>
+            <span class="edu-courses">Advanced Cloud Computing, Database Management, Text Mining &amp; NLP, Web Development</span>
+        </div>
+        <div class="edu">
+            <div class="edu-header">
+                <span class="edu-degree">Bachelor of Engineering in Computer Science, RV College of Engineering</span>
+                <span class="edu-loc">Bengaluru, India &mdash; May 2021</span>
+            </div>
+            <span class="edu-courses">Operating Systems, Data Structures &amp; Algorithms, UNIX, Parallel Programming, Database Design</span>
+        </div>
+    </div>
+</body>
+</html>
